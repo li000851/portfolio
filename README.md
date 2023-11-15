@@ -21,4 +21,4 @@ I started with the UX design I did in UX design I class using Figma. For this pr
 - [Roboto Google Font](https://fonts.google.com/specimen/Roboto)
 
 ## Logo
-![placeholder](https://placekitten.com/200x200)
+![placeholder](https://placekitten.com/200/200)
