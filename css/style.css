@@ -97,13 +97,41 @@ body {
 .text-thin{
   font-weight: lighter;
 }
-
+/* footer */
 hr{
   margin-left: 2rem;
   margin-right: 2rem;
   height: 1px;
 }
 
+footer p{
+  font-size: small;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: black; 
+  margin-right: 0.6rem;
+}
+
+.social-icons a:hover {
+ color: #aaa;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item:nth-child(2), .grid-item:nth-child(3) {
+  justify-self: center;
+}
+
+.grid-item:nth-child(4) {
+  justify-self: end;
+}
+
+/* End footer */
 
 /* bg animation */
 .halo {
@@ -112,8 +140,8 @@ hr{
   height: 200px; 
   border-radius: 50%;
   pointer-events: none;
-  background-color: rgba(255, 213, 0, 0.6);
-  box-shadow: 0 0 80px 80px rgba(255, 213, 0, 0.6); 
+  background-color: rgba(255, 213, 0, 0.2);
+  box-shadow: 0 0 80px 80px rgba(255, 213, 0, 0.2); 
   transform: translate(-50%, -50%);
   transition: left 0.3s ease, top 0.3s ease; 
 
@@ -122,13 +150,13 @@ hr{
 /* END bg animation */
 
 @media (max-width: 768px) {
-
+  /* header */
   .burger {
     display: block;
     position: absolute;
 
     top: 0.8rem;
-    right: 2.1rem;
+    right: 2.5rem;
   }
   
   .navbar{
@@ -155,8 +183,21 @@ hr{
     text-align: center;
     padding: 1rem;
   }
-
-
+  /* END header */
+  .footer-grid{
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  .grid-item:nth-child(4) {
+    margin-top: 1rem;
+    justify-self: center;
+  }
+  
 }
 
 
