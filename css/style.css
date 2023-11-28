@@ -1,0 +1,162 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  /* overflow: hidden; */
+}
+.wrapper{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* nav */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  padding: 1rem;
+}
+.brand-title-container {
+  display: flex;
+  align-items: center;
+}
+.brand-title-circle {
+  background-color: #EED767; 
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%;
+  margin-right: 0.5rem; 
+}
+.brand-title {
+  font-weight:500;
+  font-size: 1.2rem;;
+  margin-right: 0.5rem; 
+}
+.brand-title2{
+  font-weight: 200;;
+
+}
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  padding: 0 2rem;
+}
+
+.navbar-links li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #aaa;
+}
+/* END nav */
+
+/* burger nav */
+.burger {
+  /* position: absolute;  */
+  top: 50%;  
+  right: 0rem;      
+  /* transform: translateY(-50%);  */
+  display: none;     
+  z-index: 10; 
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #000000;
+  margin: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.burger.toggle {
+  transform: rotate(180deg);
+}
+
+.burger.toggle .line1 {
+  transform: rotate(45deg) translate(5px, 5px);
+  background-color: #000; 
+}
+
+.burger.toggle .line2 {
+  opacity: 0; 
+}
+
+.burger.toggle .line3 {
+  transform: rotate(-45deg) translate(7px, -6px); 
+  background-color: #000;
+}
+/* END burger nav */
+.text-thin{
+  font-weight: lighter;
+}
+
+hr{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 1px;
+}
+
+
+/* bg animation */
+.halo {
+  position: fixed;
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: rgba(255, 213, 0, 0.6);
+  box-shadow: 0 0 80px 80px rgba(255, 213, 0, 0.6); 
+  transform: translate(-50%, -50%);
+  transition: left 0.3s ease, top 0.3s ease; 
+
+  z-index: -1;
+}
+/* END bg animation */
+
+@media (max-width: 768px) {
+
+  .burger {
+    display: block;
+    position: absolute;
+
+    top: 0.8rem;
+    right: 2.1rem;
+  }
+  
+  .navbar{
+    display: block;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links.nav-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links.nav-active ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links.nav-active li {
+    text-align: center;
+    padding: 1rem;
+  }
+
+
+}
+
+
