@@ -57,8 +57,14 @@ body {
   color: #aaa;
 }
 /* closes nav */
-
+.custom-size{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
 /* button */
+.button-container{
+  margin-bottom: 2rem;
+}
 .circle-button {
   display: inline-block;
   margin: 10px;
@@ -73,7 +79,7 @@ body {
 
   border: 1px solid black;
 }
-
+/* closes btn */
 
 /* Original colors */
 .orange { background-color: #E53451; }
@@ -190,7 +196,7 @@ footer p{
     position: absolute;
 
     top: 1.2rem;
-    right: 2.5rem;
+    /* right: 0rem; */
   }
   
   .navbar{
@@ -237,7 +243,10 @@ footer p{
     justify-content: center;
  
   }
-
+  .intro-text{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   .short-hr{
     width: 90%;
   }
