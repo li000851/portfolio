@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +35,7 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
+
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
@@ -40,23 +43,38 @@
       </div>
     </nav>
   </header>
-<!-- END Responsive Navbar -->
+<!-- closes Responsive Navbar -->
 
+<!-- intro -->
   <main>
-    <div class="container">
-      <div class="row">
-          <div class="col-4">
-            <img src="images/Rectangle 1.png">
+    <section class="py-5">
+      <div class="container-lg">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="images/Rectangle1.png" alt="portrait">
           </div>
-          <div class="col-8">
+          <div class="col d-flex justify-content-center flex-column">
             <h2>Hello</h2>
             <h3>A bit About Me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nemo eius nesciunt adipisci quisquam quasi consequuntur sequi quibusdam minus perferendis eaque quam, incidunt architecto culpa, nostrum commodi. Culpa, nulla explicabo!</p>
-          </div>
-      </div>
-  </main>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolor delectus unde repellendus saepe iste laboriosam aliquam, et sint officiis aut reprehenderit obcaecati neque assumenda expedita. Illo sit ratione est?
+            </p>
+            <!-- btn -->
+            <div class="button-container">
+              <a href="#resume" class="circle-button orange">Resume</a>
+              <a href="#projects" class="circle-button red">Portfolio</a>
+              <a href="#contact" class="circle-button cyan">Contact</a>
+            </div>
 
-  <hr>
+          </div><!-- closes .col -->
+        </div><!-- closes .row -->
+      </div><!-- closes .container-lg -->
+    </section><!-- closes #intro -->
+  </main>
+<!-- closes intro -->
+
+<!-- footer -->
+  <hr class="short-hr">
 
   <footer class="wrapper">
     <div class="footer-grid">
@@ -84,14 +102,14 @@
         <p class="text-thin">Design By Siwei Li</p>
       </div>
 
-  </div>
+    </div>
   
   </footer>
-
+<!-- closes footer -->
   <!--Background animation  -->
   <div class="halo"></div>
 
-  <!--END Background animation -->
+  <!-- closes Background animation -->
 
 
   <script src="main.js"></script>
