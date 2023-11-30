@@ -190,11 +190,17 @@ footer p{
 .form-group textarea {
   height: 140px;
 }
-/* form */
+#form-flex {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
 
-
-
+label{
+  margin-bottom: 0.5rem;
+}
 /* closes form */
+
 
 /* bg animation */
 .halo {
@@ -290,6 +296,9 @@ footer p{
 
   .form-row {
     flex-direction: column;
+}
+#form-flex{
+  display: block;
 }
 
 }

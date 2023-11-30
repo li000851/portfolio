@@ -51,12 +51,12 @@
 
 <!-- intro -->
   <main role="main">
-    <section class="pt-3">
+    <section class="py-5">
       <div class="container-lg mt-2 mb-2">
         <div class="row row-cols-1 row-cols-md-2 ">
 
           <div class="contact-flex col d-flex flex-column">
-            <h1>Contact</h2>
+            <h1>Contact</h1>
             <p class="fw-light mb-4">Looking forward to hearing from you</p>
 
             <p class="fw-medium">Phone</p>
@@ -71,9 +71,9 @@
           <div class="col">
             <div class="button-container animate__animated animate__fadeInRight">
 
-                <div class="contact-form fw-light mt-5">
+                <div class="contact-form fw-light m-5">
                     <form>
-                        <div class="form-row ">
+                        <div class="form-row">
                             <div class="form-group">
                                 <label for="firstName">First Name</label>
                                 <input type="text" id="firstName" name="firstName">
@@ -94,13 +94,15 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message"></textarea>
-
-                            <button href="#" class="circle-button red">Submit</button>
+                        <div class="form-group" id="form-flex">
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="circle-button red">Submit</button>
+                            </div>                  
                         </div>
-
                     </form>
                 </div>
 
