@@ -51,35 +51,58 @@
 
 <!-- intro -->
   <main role="main">
-    <section class="py-5">
+    <section class="pt-3">
       <div class="container-lg mt-2 mb-2">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col d-flex justify-content-center align-items-center order-2 order-md-1">
+        <div class="row row-cols-1 row-cols-md-2 ">
 
-            <picture>
-              <source srcset="images/portrait_300_x_375.png" media="(max-width: 400px)">
-              <source srcset="images/portrait_400x500.png" media="(max-width: 800px)">
-      
-              <img src="images/portrait_400x500.png" alt="portrait">
-            </picture>
+          <div class="contact-flex col d-flex flex-column">
+            <h1>Contact</h2>
+            <p class="fw-light mb-4">Looking forward to hearing from you</p>
+
+            <p class="fw-medium">Phone</p>
+            <p class="fw-light">613-456-789</p>
+    
+            <p class="fw-medium">Email</p>
+            <p class="fw-light">li000851@algonquinlive.com</p>
 
           </div>
-          <div class="col d-flex justify-content-center flex-column order-1 order-md-2">
-            <!-- intro text -->
-            <div class="intro-text ">
-                <h2 class="custom-size">Hello</h2>
-                <h3 class="h5">A bit About Me</h3>
-                <p class="fw-light">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolor delectus unde repellendus saepe iste laboriosam aliquam, et sint officiis aut reprehenderit obcaecati neque assumenda expedita. Illo sit ratione est?
-                </p>
-            </div>
 
-            <!-- btn -->
+          
+          <div class="col">
             <div class="button-container animate__animated animate__fadeInRight">
 
-              <a href="resume.html" class="circle-button orange">Resume</a>
-              <a href="portfolio.html" class="circle-button red">Portfolio</a>
-              <a href="contact.html" class="circle-button cyan">Contact</a>
+                <div class="contact-form fw-light mt-5">
+                    <form>
+                        <div class="form-row ">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+
+                            <button href="#" class="circle-button red">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
 
             </div>
 
