@@ -163,6 +163,8 @@ footer p{
 }
 
 /* closes footer */
+
+/* form */
 .form-container {
   max-width: 500px;
   margin: 0 auto;
@@ -208,10 +210,14 @@ textarea:focus {
   outline: none;
   border: 2px solid #000000; 
 }
-
-
 /* closes form */
+/* Resume */
+.w-flex{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
 
+/* closes resume */
 
 /* bg animation */
 .halo {
@@ -250,6 +256,8 @@ textarea:focus {
   .navbar-links {
     display: none;
     width: 100%;
+
+    margin-top: 2rem;
   }
 
   .navbar-links.nav-active {
@@ -299,7 +307,9 @@ textarea:focus {
   }
 
   .contact-flex{
-    text-align: center;
+    /* display: grid;
+    grid-template-columns: auto 1fr auto; */
+    align-items: center;
   }
   .short-hr{
     width: 90%;
@@ -307,11 +317,19 @@ textarea:focus {
 
   .form-row {
     flex-direction: column;
-}
-#form-flex{
+  }
+  #form-flex{
   display: block;
-}
+  }
+  .w-flex{
+    display: block;
+  }
 
+  .resume-flex{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 3rem;
+  }
 }
 
 
