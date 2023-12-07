@@ -1,24 +1,24 @@
 # Siwei Li - Web Dev II - Portfolio
 
 ## Project Explanation
-I started with the UX design I did in UX design I class using Figma. For this project I used Bootstrap.
+In the development of my web portfolio, I began with the user experience design principles I learned in my UX Design I class, leveraging Figma to create the initial design mockups. This project was an opportunity to apply Bootstrap for the first time, providing a responsive framework that greatly facilitated the development process.
+
 
 ### Chanllenges
-- Using Bootstrap for the first time
-- Using JS library for scroll
-- Layout issues with the projects page
+- **Bootstrap Learning Curve**: As my first venture with Bootstrap, there was an initial learning phase to understand its grid system and components.
+- **JavaScript Library Integration**: Implementing a JavaScript library for smooth scrolling required careful consideration to ensure compatibility and functionality.
+- **Layout Design**: I faced some layout challenges in the projects page, where aligning elements and maintaining responsiveness proved difficult.
+
 
 ### Lessons Learned
-- Using Bootstrap Grid effectively
-- How to add libraries to your project
+- **Bootstrap Grid Mastery**: I have learned to utilize Bootstrap's grid system more effectively, which has improved the structural integrity of my web pages.
+- **Library Implementation**: I now understand how to integrate and troubleshoot external JavaScript libraries within my projects.
+- **Problem-Solving**: Tackling the layout issues on the projects page has sharpened my problem-solving skills and deepened my understanding of CSS.
 
 ## Libraries Used
 - [Bootstrap](https://getbootstrap.com/)
-- [AnimateOnScroll](https://michalsnik.github.io/aos/)
+- [Bootstrap Icon](https://icons.getbootstrap.com/)
+- [Animate.css](https://animate.style/)
 
 ## External Resources
-- [Images from Unsplash](https://unsplash.com/)
 - [Roboto Google Font](https://fonts.google.com/specimen/Roboto)
-
-## Logo
-![placeholder](https://placekitten.com/200/200)
