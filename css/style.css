@@ -279,7 +279,10 @@ textarea:focus {
 }
 /* closes bg animation */
 
-
+.email{
+  font-weight: lighter;
+  font-size: small;
+}
 
 @media (max-width: 768px) {
   /* header */
